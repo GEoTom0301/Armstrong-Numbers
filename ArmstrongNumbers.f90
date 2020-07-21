@@ -2,14 +2,14 @@
 !  Thomas George Thinapparampil 1995
 !
 !  FUNCTIONS:
-!  AmstrongNumbers - Entry point of console application.
-!  If the sum of the cube of the digits of a number is equal to the number, we call it an Amstrong Number.
+!  AmstrongNumbers - 
+!  If the sum of the cube of the digits of a number is equal to the number, we call it an Armstrong Number.
 
 !****************************************************************************
 !
-!  PROGRAM: AmstrongNumbers
+!  PROGRAM: ArmstrongNumbers
 !
-!  PURPOSE:  Entry point for the console application.
+!  PURPOSE:   
 !
 !****************************************************************************
 
@@ -22,9 +22,9 @@
     INTEGER I, N
     END BLOCK
     ! Body of AmstrongNumbers
-    PRINT *, 'GIVE THE NUMBER UPTO WHICH YOU NEED TO PRINT AMSTRONG NUMBERS'
+    PRINT *, 'GIVE THE NUMBER UPTO WHICH YOU NEED TO PRINT ARMSTRONG NUMBERS'
     READ(*,*) N
-    WRITE(*,*) 'AMSTRONG NUMBERS ARE '
+    WRITE(*,*) 'ARMSTRONG NUMBERS ARE '
     DO 100 I = 1,N
         ISUM = 0
         K = I
